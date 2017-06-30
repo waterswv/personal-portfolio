@@ -1,26 +1,9 @@
-/* custom styles */
-img.bg {
-  /* Set rules to fill background */
-  min-height: 75%;
-  min-width: 1024;
 
-  /* Set up proportionate scaling */
-  width: 75%;
-  height: auto;
+html{
 
-  /* Set up positioning */
-  position: center;
-  top: 0;
-  left: 0;
-}
-
-@media screen and (max-width: 1024) { /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-}
-
-h3 {
-  text-decoration: underline;
+  background-image: url("../imgs/bridge_center.jpg");
+  background-size: cover;
+  height: 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
 }
