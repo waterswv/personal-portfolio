@@ -1,24 +1,30 @@
 
 html{
 
-  background-image: url("../imgs/bridge_center.jpg");
+  background: url("../imgs/bridge_center.jpg") no-repeat center fixed;
   background-size: cover;
-  height: 100%;
-  background-position: 100%;
-  background-repeat: no-repeat;
-  margin: 0px 5px 5px 5px;
+
 
 }
 h1{
+  font-size: 30px;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
+}
+h2, h3{
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  text-decoration: underline;
 }
 nav{
   font-family: 'Quicksand', sans-serif;
   text-align: right;
   padding-top: 5px;
   font-size: 10;
-
+}
+a{
+  padding: 5px;
 }
 .heroImg {
   font-family: 'Quicksand', sans-serif;
