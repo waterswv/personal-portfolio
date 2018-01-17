@@ -35,16 +35,16 @@ p {
 }
 h1{
   font-size: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 h2{
   font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 nav{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: right;
   padding-top: 5px;
   font-size: 10;
@@ -56,4 +56,29 @@ a{
   font-family: 'Quicksand', sans-serif;
   display: inline-block;
   width: 100%;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip span {
+    visibility: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin: 5px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover span {
+    visibility: visible;
 }
